@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  web:
+    build: .
+    environment:
+      - UUNIT_BOT_TOKEN=5943247803:AAF7f8Nqgeqw_azjM9rFS0KgbdxmaB3lHOs
+      - UUNIT_YEAR=2022
+      - UUNIT_SEMESTER=2
+      - ADMIN_CHAT_ID=525887452
